@@ -23,7 +23,7 @@ import java.time.Duration;
 @CucumberOptions(
         features = "C://Users//admin//IdeaProjects//Selenium4_Stream//src//test//resources//features//get_adds_coming_on_top.feature",
         glue = {"StepDefinitions","BasePage"},
-        plugin = {"pretty","timeline:./Reports/","html:./Reports/report.html","rerun:RerunFeatures/reruns.txt","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+        plugin = {"pretty","timeline:./Reports/","html:./Reports/cucureport.html","rerun:RerunFeatures/reruns.txt","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         publish = true
       //  tags = "@Mobiles"
 )
