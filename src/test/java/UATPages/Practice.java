@@ -24,6 +24,7 @@ public class Practice {
         System.out.println("before Testq");
     }
 
+    //added a coment
 
     @Parameters({"browser"})
     @BeforeSuite
