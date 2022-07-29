@@ -36,39 +36,6 @@ public class HomePage  {
 
 ActionsHomePage actionsHomePage = new ActionsHomePage();
 
-   /*public static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
-
-    public static WebDriver getDriver(){
-        return driver.get();
-    }
-
-    @Before
-    public  static void  initialize() {
-        System.out.println(" Inside Before ===================================================  ");
-        if (browser.equalsIgnoreCase("chrome")) {
-            ChromeOptions chromeOptions = new ChromeOptions();
-            chromeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-
-            WebDriverManager.chromedriver().setup();
-
-            driver.set(new ChromeDriver());
-
-         //   WebDriverManager.chromedriver().driverVersion("").setup();
-
-            //  driver =  new ChromeDriver();
-            getDriver().manage().window().maximize();
-            getDriver().get("https://www.noon.com/uae-en/sports-outdoors/");
-            //  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-            getDriver().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(5));
-            CommonCode.driver = getDriver();
-
-        }
-
-
-    }
-*/
-
-
 
     public byte[] takeScreenShot() throws IOException {
 

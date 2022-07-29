@@ -1,15 +1,15 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "649ef848-8dd1-49ae-aec3-690990aa7ad3",
+    "id": "43508948-17f3-40a0-8de4-c4649c4e2a69",
     "feature": "Get all adds coming on the top of screen",
     "scenario": "Get the adds coming on the of screen",
-    "start": 1659004544158,
+    "start": 1659008220530,
     "group": 16,
     "content": "",
     "tags": "",
-    "end": 1659004573004,
-    "className": "failed"
+    "end": 1659008264042,
+    "className": "passed"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([
